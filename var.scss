@@ -1,0 +1,132 @@
+
+$bgColor: #f5f5f5;
+
+$rem: 37.5;
+$bigSize: 32;
+$bigColor:#333333;
+$middleSize: 28;
+$grayColor:#999999;
+$smallSize: 22;
+$fontFamily:'PingFangSC';
+.mainColor{
+ background: #FFFFFF;
+}
+.bf{
+  font-size: 32rem/$rem;
+}
+.mfc{
+  font-size: 28rem/$rem;
+  color: #999999;
+}
+.mf{
+  font-size: 28rem/$rem;
+}
+.lf{
+  font-size: 22rem/$rem;
+}
+p,span,textarea{
+    font-family:$fontFamily
+}
+$bgColor: #F5F5F5;
+$mainColor: #FFFFFF;
+$rem: 37.5;
+$bigSize: 32px;
+$bigColor:#333333;
+$middleSize: 28px;
+$grayColor:#999999;
+$lightBlue:rgb(22,151,219);
+$smallSize: 22px;
+$fontFamily:'PingFangSC';
+$heartRed:rgb(255,134,134);
+$shitYellow:rgb(242,198,19);
+.xxl{
+    font-size:0.96rem;
+}
+    .xl{
+        font-size:0.85rem;
+        }
+    .l{
+        font-size:0.8rem;
+        }
+    .m{
+        font-size:0.74rem;
+        }
+    .s{
+        font-size:0.64rem;
+        }
+    .font-hide{
+        white-space:normal;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        display:-webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient:vertical;
+    }
+//.font-hidee{
+//    overflow:hidden;
+//    text-overflow: ellipsis;
+//    white-space:nowrap;
+//}
+.headerTitle{
+    flex:1 1 auto;
+    text-align:center;
+}
+    .darker{
+        color:#333333;
+    }
+    .dark{
+        color:#666666;
+    }
+    .light{
+        color:#999999;
+    }
+    .lighter{
+        color:#CCCCCC;
+    }
+.lightBlue{
+    color:$lightBlue;
+}
+
+.app{
+    flex:1 1 auto;
+    background-color:$bgColor;
+    font-family:$fontFamily;
+::-webkit-input-placeholder { /* WebKit browsers */
+  font-size:28rem/$rem;
+}
+}
+.weui-cells__title{
+  color: black;
+  padding-bottom: 10rem/$rem;
+}
+
+    @mixin vertical{
+        display:flex;
+        flex-direction:column;
+    }
+    @mixin horizontal{
+        display:flex;
+    }
+    @mixin wrap{
+        overflow:auto;
+        flex:1 1 auto;
+    }
+    .vertical{
+        @include vertical;
+    }
+    .horizontal{
+        @include horizontal;
+    }
+    .wrap{
+        @include wrap;
+        -webkit-overflow-scrolling:touch;
+    }
+
+.myLoading{
+        position:fixed;
+        top:10rem;
+        left:6.5rem;
+}
+.profile{
+    border-radius:50%;
+}
